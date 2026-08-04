@@ -16,6 +16,8 @@
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 name: "💻 Workstations"
 controls:
+  scripts:
+    - path: platforms/macos/scripts/set-dns-cloudflare.sh
   enable_disk_encryption: true
   enable_recovery_lock_password: true
   
