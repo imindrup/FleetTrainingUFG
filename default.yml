@@ -22,7 +22,7 @@ org_settings:
     # Read more:
     #   • https://fleetdm.com/docs/configuration/yaml-files#org-info
     ###########################################################
-  org_name: Ian's Insurance
+    org_name: Ian's Insurance
   webhook_settings:
     activities_webhook:
       enable_activities_webhook: true
