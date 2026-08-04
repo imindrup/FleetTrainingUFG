@@ -16,6 +16,13 @@
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 name: "💻 Workstations"
 controls:
+  enable_disk_encryption: true
+  enable_recovery_lock_password: true
+  
+  ipados_updates:
+    deadline: "2026-07-30"
+    minimum_version: "26.2"  
+  
   setup_experience:
     ###########################################################
     # Configure the macOS setup experience
@@ -115,9 +122,9 @@ controls:
   # > using `paths` below.
   ###########################################################
   scripts:
-    - paths: ../platforms/macos/scripts/*.sh
+    #- paths: ../platforms/macos/scripts/*.sh
     - paths: ../platforms/windows/scripts/*.ps1
-    - paths: ../platforms/linux/scripts/*.sh
+    #- paths: ../platforms/linux/scripts/*.sh
 
 ###########################################################
 # Reports
